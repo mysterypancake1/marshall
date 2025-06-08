@@ -111,6 +111,6 @@ function generateProof(screenshot) {
 downloadBtn.addEventListener('click', function() {
     const link = document.createElement('a');
     link.download = 'proof.jpg';
-    link.href = canvas.toDataURL('image/jpg');
+    link.href = canvas.toDataURL('image/jpeg');
     link.click();
 });
